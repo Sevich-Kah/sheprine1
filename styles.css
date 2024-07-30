@@ -425,11 +425,11 @@ li {
 	max-width: 40vh;
     }
     .service2 {
-	max-width: 10vh
+	width: 10vh
 	max-height: fit-content;
     }
     .service2 img {
-        max-width: 10vh;
+        width: 10vh;
         max-height: 45vh;
     }
 }
