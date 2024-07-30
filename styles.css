@@ -311,7 +311,7 @@ body {
 }
 .service2 {
     padding: 2vh;
-    max-width: 75vh;
+    max-width: 67vh;
     display: grid;
     grid-template-rows: auto auto;
     /*box-shadow: 4px 4px 40px black;
