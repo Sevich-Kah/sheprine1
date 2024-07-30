@@ -65,277 +65,279 @@
 </style>
 </head>
 <body>
-  <section class="homebar">
-    <div class="top-bar">
-      <div class="header1">Sheprine</div>
-      <nav class="header2">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#testi">Testimonials</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact</a>
-      </nav>
-      <nav id="header3" style="display: none;">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#testi">Testimonials</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <img src="icon-menu-close.svg" alt="close menu" onclick="closeMenu()">
-      </nav>
-      <div id="overlay"></div>
-      <img src="icon-menu.svg" alt="menu" onclick="openMenu()" tabindex="0" id="open">
-    </div>
-    <div class="avatar"></div>
-    <h1>Sheprine Kaumba</h1>
-    <p>Wildlife conservation educator, Founder and Customer Service Officer</p>
-  </section>
-  <section>
-    <div class=about><h1 id="about">About</h1></div>
-    <div class="marquee-container">
-      <div class="marquee" id="marquee">
-        <div class="marquee-item" data-info="Extra information for Item 1">
-          <img src="wild1-favicon.jpeg" alt="favicon1" class="fav">
-          <h2>Wildlife conservationist</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">Founding member of Lake Victoria Tourism Association (LVTA)</div>
-        </div>
-        <div class="marquee-item" data-info="Extra information for Item 2">
-          <img src="woman1-favicon.jpeg" alt="favicon2" class="fav">
-          <h2>Women Empowerment</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">Founding member of Kisumu Strong Ladies and chair for three years.</div>
-        </div>
-        <div class="marquee-item" data-info="Extra information for Item 3">
-          <img src="service1-favicon.jpeg" alt="favicon3" class="fav">
-          <h2>Service Delivery</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">Introduction of best practices in service 
-            delivery when being first ever team leader at Kisumu Impala 
-            Sanctuary</div>
-        </div>
-        <div class="marquee-item" data-info="Extra information for Item 4">
-          <img src="tour2.jpeg" alt="favicon4" class="fav">
-          <h2>Tour Guide Trainer</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">Trained tour guides/tour drivers for CTDLT</div>
-        </div>
-        <div class="marquee-item" data-info="Extra information for Item 5">
-          <img src="customer-favicon.jpeg" alt="favicon5" class="fav">
-          <h2>Customer Service</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">While being their customer service team leader, 
-            Amboseli National Park won Best Performing Park in 
-            service delivery and team work</div>
-        </div>
-        <div class="marquee-item" data-info="Extra information for Item 6">
-          <img src="leader-favicon.jpeg" alt="favicon6" class="fav">
-          <h2>Leadership Skills</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">Certificate of Excellence from trip advisor 
-            while being customer relations team leader at Lake Nakuru</div>
-        </div>
-        <div class="marquee-item" data-info="Extra information for Item 7">
-          <img src="business-favicon.jpeg" alt="favicon7" class="fav">
-          <h2>Business Skills</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">Internationally acredited with business skilss from
-            Earth Watch Institute of the UK
+  <div class="bi">
+    <section class="homebar">
+      <div class="top-bar">
+        <div class="header1">Sheprine</div>
+        <nav class="header2">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#testi">Testimonials</a>
+          <a href="#">Resume</a>
+          <a href="#">Contact</a>
+        </nav>
+        <nav id="header3">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testi">Testimonials</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <img src="icon-menu-close.svg" alt="close menu" onclick="closeMenu()">
+        </nav>
+        <div id="overlay"></div>
+        <img src="icon-menu.svg" alt="menu" onclick="openMenu()" tabindex="0" id="open">
+      </div>
+      <div class="avatar"></div>
+      <h1>Sheprine Kaumba</h1>
+      <p>Wildlife conservation educator, Founder and Customer Service Officer</p>
+    </section>
+    <section>
+      <div class=about><h1 id="about">About</h1></div>
+      <div class="marquee-container">
+        <div class="marquee" id="marquee">
+          <div class="marquee-item" data-info="Extra information for Item 1">
+            <img src="wild1-favicon.jpeg" alt="favicon1" class="fav">
+            <h2>Wildlife conservationist</h2>
+            <button class="read-more">Read More</button>
+            <div class="extra-info">Founding member of Lake Victoria Tourism Association (LVTA)</div>
           </div>
-        </div>
-        <!-- duplicate the first items to create a seamless loop -->
-        <div class="marquee-item" data-info="Extra information for Item 1">
-          <img src="wild2-favicon.jpeg" alt="favicon1" class="fav">
-          <h2>Wildlife conservationist</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">Founding member of Lake Victoria Tourism Association (LVTA)</div>
-        </div>
-        <div class="marquee-item" data-info="Extra information for Item 2">
-          <img src="woman2-favicon.jpeg" alt="favicon2" class="fav">
-          <h2>Women Empowerment</h2>
-          <button class="read-more">Read More</button>
-          <div class="extra-info">Founding member of Kisumu Strong Ladies and chair for three years.</div>
-        </div>
-        <div class="marquee-item" data-info="Extra information for Item 3">
-          <img src="service2-favicon.jpeg" alt="favicon3" class="fav">
-          <h2>Service Delivery</h2>
-          <button class="read-more">Read More</button>
+          <div class="marquee-item" data-info="Extra information for Item 2">
+            <img src="woman1-favicon.jpeg" alt="favicon2" class="fav">
+            <h2>Women Empowerment</h2>
+            <button class="read-more">Read More</button>
+            <div class="extra-info">Founding member of Kisumu Strong Ladies and chair for three years.</div>
+          </div>
+          <div class="marquee-item" data-info="Extra information for Item 3">
+            <img src="service1-favicon.jpeg" alt="favicon3" class="fav">
+            <h2>Service Delivery</h2>
+            <button class="read-more">Read More</button>
             <div class="extra-info">Introduction of best practices in service 
               delivery when being first ever team leader at Kisumu Impala 
               Sanctuary</div>
+          </div>
+          <div class="marquee-item" data-info="Extra information for Item 4">
+            <img src="tour2.jpeg" alt="favicon4" class="fav">
+            <h2>Tour Guide Trainer</h2>
+            <button class="read-more">Read More</button>
+            <div class="extra-info">Trained tour guides/tour drivers for CTDLT</div>
+          </div>
+          <div class="marquee-item" data-info="Extra information for Item 5">
+            <img src="customer-favicon.jpeg" alt="favicon5" class="fav">
+            <h2>Customer Service</h2>
+            <button class="read-more">Read More</button>
+            <div class="extra-info">While being their customer service team leader, 
+              Amboseli National Park won Best Performing Park in 
+              service delivery and team work</div>
+          </div>
+          <div class="marquee-item" data-info="Extra information for Item 6">
+            <img src="leader-favicon.jpeg" alt="favicon6" class="fav">
+            <h2>Leadership Skills</h2>
+            <button class="read-more">Read More</button>
+            <div class="extra-info">Certificate of Excellence from trip advisor 
+              while being customer relations team leader at Lake Nakuru</div>
+          </div>
+          <div class="marquee-item" data-info="Extra information for Item 7">
+            <img src="business-favicon.jpeg" alt="favicon7" class="fav">
+            <h2>Business Skills</h2>
+            <button class="read-more">Read More</button>
+            <div class="extra-info">Internationally acredited with business skilss from
+              Earth Watch Institute of the UK
+            </div>
+          </div>
+          <!-- duplicate the first items to create a seamless loop -->
+          <div class="marquee-item" data-info="Extra information for Item 1">
+            <img src="wild2-favicon.jpeg" alt="favicon1" class="fav">
+            <h2>Wildlife conservationist</h2>
+            <button class="read-more">Read More</button>
+            <div class="extra-info">Founding member of Lake Victoria Tourism Association (LVTA)</div>
+          </div>
+          <div class="marquee-item" data-info="Extra information for Item 2">
+            <img src="woman2-favicon.jpeg" alt="favicon2" class="fav">
+            <h2>Women Empowerment</h2>
+            <button class="read-more">Read More</button>
+            <div class="extra-info">Founding member of Kisumu Strong Ladies and chair for three years.</div>
+          </div>
+          <div class="marquee-item" data-info="Extra information for Item 3">
+            <img src="service2-favicon.jpeg" alt="favicon3" class="fav">
+            <h2>Service Delivery</h2>
+            <button class="read-more">Read More</button>
+              <div class="extra-info">Introduction of best practices in service 
+                delivery when being first ever team leader at Kisumu Impala 
+                Sanctuary</div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-        <h1 id="services">Services</h1>
-        <div id="service" style="display: nne;">
-            <div>
-                <h2>Catering</h2>
-                <div class="service1">
-                    <img src="cater1.jpg" alt="table with food">
-                    <div>
-                        <p class="number">01</p>
-                        <p><b>Catering</b></p>
-                        <p>Offering the best catering services</p>
-                    </div>
-                    <img src="cater2.jpg" alt="table with food">
-                    <div>
-                        <p class="number">02</p>
-                        <p><b>Catering</b></p>
-                        <p>Offering the best catering services</p>
-                    </div>
-                    <img src="cater3.jpg" alt="table with food">
-                    <div>
-                        <p class="number">03</p>
-                        <p><b>Catering</b></p>
-                        <p>Offering the best catering services</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h2>Wildlife education</h2>
-                <div class="service2">
-                    <img src="forest.jpg" alt="image of a forest">
-                    <p>Developed conservation education content to be 
-                        delivered to club members in various
-                        learning institutions around rift valley and also organized tours and tour itinerary 
-                        development for visiting groups.</p>
-                    <p>Development of school and community outreach materials e.g. pamphlets, 
-                        brochures e.t.c and distribution of the same to respective stakeholders</p>
-                </div>
-            </div>
-            <div>
-                <h2>Customer Service and PR</h2>
-                <ul>
-                    <li>Head of the customer service function at the 
-                    Park level (both parks)</li>
-                    <li>Development of tourism marketing strategies, 
-                        marketing materials & customer complaints mitigation strategies</li>
-                    <li>safe custody & banking: Overall in-charge of all 
-                        revenues collected at park level </li>
-                    <li>Customer and revenue data base management for the park</li>
-                    <li>Customer & stakeholder relations management for the center</li>
-                </ul>
-            </div>
-        </div>
-        <section class="testimonial" id="testi">
-                <h1>Client's hello <br>testimonials</h1>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-12">
-                  <!-- Swiper -->
-                   <!--ADD THE MAIL-TO ELEMENT-->
-                  <div class="swiper">
-                    <div class="testimonial-box yellow">
-                      <h2>Experienced</h2>
-                      <p>The fifteen years' experience in public relations, stakeholder 
-                        relations management and community mobilization and advocacy make her the perfect 
-                        fit for the job</p>
-                      <div class="text-right">
-                        <p class="name">- Esther Wausi Walya</p>
-                        <p class="designation">Manager Corporate Communications, Kenya Tourist Board - KTB</p>
+    </section>
+          <h1 id="services">Services</h1>
+          <div id="service" style="display: nne;">
+              <div>
+                  <h2>Catering</h2>
+                  <div class="service1">
+                      <img src="cater1.jpg" alt="table with food">
+                      <div>
+                          <p class="number">01</p>
+                          <p><b>Catering</b></p>
+                          <p>Offering the best catering services</p>
                       </div>
-                    </div>
-                    <div class="testimonial-box purple">
-                      <h2>Skilled and Talented</h2>
-                      <p>She posses many skills in leading team projects based on customer and community 
-                        outreach programs and has also received commendations for successful projects. 
-                        She also has admirable talent in public speaking and effectively led many 
-                        successful public presentations/address programs.</p>
-                      <div class="text-right">
-                        <p class="name">- Carol Odera</p>
-                        <p class="designation">Founder and Director, 
-                          Women in Sustainable Enterprises (WISE)</p>
+                      <img src="cater2.jpg" alt="table with food">
+                      <div>
+                          <p class="number">02</p>
+                          <p><b>Catering</b></p>
+                          <p>Offering the best catering services</p>
                       </div>
-                    </div>
-                    <div class="testimonial-box blue">
-                      <h2>Team player and Adaptable</h2>
-                      <p>As a self-starter,
-                        displayed an ability to work in a highly motivating and challenging environment where her 
-                        complete skills and passion for excellence is utilized thus 
-                        enabling her to contribute positively in my community.</p>
-                      <div class="text-right">
-                        <p class="name">- George Osuri</p>
-                        <p class="designation">Deputy Director Kenya Wildlife Service</p>
+                      <img src="cater3.jpg" alt="table with food">
+                      <div>
+                          <p class="number">03</p>
+                          <p><b>Catering</b></p>
+                          <p>Offering the best catering services</p>
                       </div>
-                    </div>
-                    <div class="testimonial-box pink">
-                      <h2>Team player and Adaptable</h2>
-                      <p>As a self-starter, 
-                        displayed an ability to work in a highly motivating and challenging environment where her 
-                        complete skills and passion for excellence is utilized thus 
-                        enabling her to contribute positively in my community.</p>
-                      <div class="text-right">
-                        <p class="name">- Rocky Osuri</p>
-                        <p class="designation">CTO, Kenya Wildlife Service</p>
+                  </div>
+              </div>
+              <div>
+                  <h2>Wildlife education</h2>
+                  <div class="service2">
+                      <img src="forest.jpg" alt="image of a forest">
+                      <p>Developed conservation education content to be 
+                          delivered to club members in various
+                          learning institutions around rift valley and also organized tours and tour itinerary 
+                          development for visiting groups.</p>
+                      <p>Development of school and community outreach materials e.g. pamphlets, 
+                          brochures e.t.c and distribution of the same to respective stakeholders</p>
+                  </div>
+              </div>
+              <div>
+                  <h2>Customer Service and PR</h2>
+                  <ul>
+                      <li>Head of the customer service function at the 
+                      Park level (both parks)</li>
+                      <li>Development of tourism marketing strategies, 
+                          marketing materials & customer complaints mitigation strategies</li>
+                      <li>safe custody & banking: Overall in-charge of all 
+                          revenues collected at park level </li>
+                      <li>Customer and revenue data base management for the park</li>
+                      <li>Customer & stakeholder relations management for the center</li>
+                  </ul>
+              </div>
+          </div>
+          <section class="testimonial" id="testi">
+                  <h1>Client's hello <br>testimonials</h1>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <!-- Swiper -->
+                     <!--ADD THE MAIL-TO ELEMENT-->
+                    <div class="swiper">
+                      <div class="testimonial-box yellow">
+                        <h2>Experienced</h2>
+                        <p>The fifteen years' experience in public relations, stakeholder 
+                          relations management and community mobilization and advocacy make her the perfect 
+                          fit for the job</p>
+                        <div class="text-right">
+                          <p class="name">- Esther Wausi Walya</p>
+                          <p class="designation">Manager Corporate Communications, Kenya Tourist Board - KTB</p>
+                        </div>
                       </div>
-                    </div>
-                    <div class="testimonial-box yellow">
-                      <h2>Team player and Adaptable</h2>
-                      <p>As a self-starter, 
-                        displayed an ability to work in a highly motivating and challenging environment where her 
-                        complete skills and passion for excellence is utilized thus 
-                        enabling her to contribute positively in my community.</p>
-                      <div class="text-right">
-                        <p class="name">- John Osuri</p>
-                        <p class="designation">Founder, Kenya Wildlife Service</p>
+                      <div class="testimonial-box purple">
+                        <h2>Skilled and Talented</h2>
+                        <p>She posses many skills in leading team projects based on customer and community 
+                          outreach programs and has also received commendations for successful projects. 
+                          She also has admirable talent in public speaking and effectively led many 
+                          successful public presentations/address programs.</p>
+                        <div class="text-right">
+                          <p class="name">- Carol Odera</p>
+                          <p class="designation">Founder and Director, 
+                            Women in Sustainable Enterprises (WISE)</p>
+                        </div>
                       </div>
-                    </div>
-                    <div class="testimonial-box purple">
-                      <h2>Team player and Adaptable</h2>
-                      <p>As a self-starter, 
-                        displayed an ability to work in a highly motivating and challenging environment where her 
-                        complete skills and passion for excellence is utilized thus 
-                        enabling her to contribute positively in my community.</p>
-                      <div class="text-right">
-                        <p class="name">- Rocky Osuri</p>
-                        <p class="designation">CTO, Kenya Wildlife Service</p>
+                      <div class="testimonial-box blue">
+                        <h2>Team player and Adaptable</h2>
+                        <p>As a self-starter,
+                          displayed an ability to work in a highly motivating and challenging environment where her 
+                          complete skills and passion for excellence is utilized thus 
+                          enabling her to contribute positively in my community.</p>
+                        <div class="text-right">
+                          <p class="name">- George Osuri</p>
+                          <p class="designation">Deputy Director Kenya Wildlife Service</p>
+                        </div>
                       </div>
-                    </div>
-                    <div class="testimonial-box blue">
-                      <h2>Team player and Adaptable</h2>
-                      <p>As a self-starter, 
-                        displayed an ability to work in a highly motivating and challenging environment where her 
-                        complete skills and passion for excellence is utilized thus 
-                        enabling her to contribute positively in my community.</p>
-                      <div class="text-right">
-                        <p class="name">- John Osuri</p>
-                        <p class="designation">Founder, Kenya Wildlife Service</p>
+                      <div class="testimonial-box pink">
+                        <h2>Team player and Adaptable</h2>
+                        <p>As a self-starter, 
+                          displayed an ability to work in a highly motivating and challenging environment where her 
+                          complete skills and passion for excellence is utilized thus 
+                          enabling her to contribute positively in my community.</p>
+                        <div class="text-right">
+                          <p class="name">- Rocky Osuri</p>
+                          <p class="designation">CTO, Kenya Wildlife Service</p>
+                        </div>
                       </div>
-                    </div>
-                    <div class="testimonial-box pink">
-                      <h2>Team player and Adaptable</h2>
-                      <p>As a self-starter, 
-                        displayed an ability to work in a highly motivating and challenging environment where her 
-                        complete skills and passion for excellence is utilized thus 
-                        enabling her to contribute positively in my community.</p>
-                      <div class="text-right">
-                        <p class="name">- Rocky Osuri</p>
-                        <p class="designation">CTO, Kenya Wildlife Service</p>
+                      <div class="testimonial-box yellow">
+                        <h2>Team player and Adaptable</h2>
+                        <p>As a self-starter, 
+                          displayed an ability to work in a highly motivating and challenging environment where her 
+                          complete skills and passion for excellence is utilized thus 
+                          enabling her to contribute positively in my community.</p>
+                        <div class="text-right">
+                          <p class="name">- John Osuri</p>
+                          <p class="designation">Founder, Kenya Wildlife Service</p>
+                        </div>
+                      </div>
+                      <div class="testimonial-box purple">
+                        <h2>Team player and Adaptable</h2>
+                        <p>As a self-starter, 
+                          displayed an ability to work in a highly motivating and challenging environment where her 
+                          complete skills and passion for excellence is utilized thus 
+                          enabling her to contribute positively in my community.</p>
+                        <div class="text-right">
+                          <p class="name">- Rocky Osuri</p>
+                          <p class="designation">CTO, Kenya Wildlife Service</p>
+                        </div>
+                      </div>
+                      <div class="testimonial-box blue">
+                        <h2>Team player and Adaptable</h2>
+                        <p>As a self-starter, 
+                          displayed an ability to work in a highly motivating and challenging environment where her 
+                          complete skills and passion for excellence is utilized thus 
+                          enabling her to contribute positively in my community.</p>
+                        <div class="text-right">
+                          <p class="name">- John Osuri</p>
+                          <p class="designation">Founder, Kenya Wildlife Service</p>
+                        </div>
+                      </div>
+                      <div class="testimonial-box pink">
+                        <h2>Team player and Adaptable</h2>
+                        <p>As a self-starter, 
+                          displayed an ability to work in a highly motivating and challenging environment where her 
+                          complete skills and passion for excellence is utilized thus 
+                          enabling her to contribute positively in my community.</p>
+                        <div class="text-right">
+                          <p class="name">- Rocky Osuri</p>
+                          <p class="designation">CTO, Kenya Wildlife Service</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-    </div>
-    <footer>
-      <div class="row footer">
-        <div class="col-md-12 text-center">
-          <h1>Sheprine<br><span>Kaumba</span></h1>
-          <ul class="social-links">
-            <li><a href="#"><img src="linked-icon.jpeg"></a></li>
-            <li><a href="#"><img src="x-icon.jpeg"></a></li>
-            <li><a href="#"><img src="face-icon.jpeg"></a></li>
-          </ul>
-        </div>
+            </section>
       </div>
-    </footer>
-    <script src="trial.js"></script>
+      <footer>
+        <div class="row footer">
+          <div class="col-md-12 text-center">
+            <h1>Sheprine<br><span>Kaumba</span></h1>
+            <ul class="social-links">
+              <li><a href="#"><img src="linked-icon.jpeg"></a></li>
+              <li><a href="#"><img src="x-icon.jpeg"></a></li>
+              <li><a href="#"><img src="face-icon.jpeg"></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <script src="trial.js"></script>
+  </div>
 </body>
 </html>
