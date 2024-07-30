@@ -105,7 +105,8 @@ body {
     height: 20vh;
     width: 20vh;
     border-radius: 50%;
-    background-color: white;
+    background-image: url(avatar.jpeg);
+    background-size: contain;
     z-index: 1;
     margin: 6% 45%;
 	animation: float 6s ease-in-out infinite;
