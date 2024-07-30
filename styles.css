@@ -431,4 +431,8 @@ li {
         max-width: 42vh;
         max-height: 50vh;
     }
+     .bi {
+        overflow-x: hidden;
+    }
+}
 }
