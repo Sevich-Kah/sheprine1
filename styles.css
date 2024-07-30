@@ -375,6 +375,7 @@ li {
 
 @media (max-width: 390px) {
      body {
+	max-width: 90%;
 	overflow-x: hidden;
      }
     .top-bar {
