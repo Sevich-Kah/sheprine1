@@ -375,7 +375,7 @@ li {
 
 @media (max-width: 390px) {
      body {
-	overflow: hidden;
+	overflow-x: hidden;
      }
     .top-bar {
         justify-content: space-between;
