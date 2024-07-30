@@ -374,6 +374,9 @@ li {
 
 
 @media (max-width: 390px) {
+     body {
+	overflow: hidden;
+     }
     .top-bar {
         justify-content: space-between;
     }
@@ -397,7 +400,7 @@ li {
         background-attachment: fixed;
     }
     .avatar {
-        margin: 6% 37%;
+        margin: 6% 33%;
     }
     .homebar p {
         text-shadow: none;
@@ -412,6 +415,7 @@ li {
     }
     #service, .service1 {
         display: block;
+	letter-spacing: 0;
     }
     .service1 p {
         max-width: 55vh;
