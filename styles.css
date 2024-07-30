@@ -374,6 +374,9 @@ li {
 
 
 @media (max-width: 390px) {
+     body {
+        overflow-x: hidden;
+    }
     .top-bar {
         justify-content: space-between;
     }
@@ -422,10 +425,11 @@ li {
 	max-width: 40vh;
     }
     .service2 {
-	max-width: 50vh
+	max-width: 10vh
+	max-height: fit-content;
     }
     .service2 img {
-        max-width: 50vh;
+        max-width: 10vh;
         max-height: 45vh;
     }
 }
